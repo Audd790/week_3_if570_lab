@@ -1,6 +1,7 @@
 package example.myapp
 
-fun makeFish() {
+fun makeFish()
+{
     val shark = Shark()
     val pleco = Plecostomus()
     println("Shark: ${shark.color}")
@@ -9,7 +10,8 @@ fun makeFish() {
     pleco.eat()
 }
 
-fun main(){
+fun main()
+{
     makeFish()
 }
 
